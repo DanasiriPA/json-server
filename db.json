@@ -1,5 +1,5 @@
 {
-      "doctor":  {
+      "doctor": [ {
         "id": "doc123",
         "firstName": "Sarah",
         "lastName": "Johnson",
@@ -31,7 +31,7 @@
           "instagram": "https://instagram.com/dr.sarah.johnson"
         },
         "avatar": "https://i.imgur.com/2Necikc.jpg"
-      },
+      }],
       "patients": [{
         "id": "1",
         "name": "Rajesh Kumar",
@@ -392,7 +392,7 @@
         "nextAppointment": "2024-03-15",
         "createdAt": "2020-12-08T11:45:00Z"
       }],
-      "medicalRecords": {
+      "medicalRecords":[ {
         "id": "1",
         "allergies": "Penicillin, Peanuts",
         "currentMedications": "Lisinopril 10mg daily, Metformin 500mg twice daily",
@@ -410,8 +410,8 @@
         "doctorNotes": "Patient is responding well to current treatment plan. Recommend continuing medications and monitoring blood sugar levels. Next follow-up in 3 months.",
         "healthGoals": "1. Maintain blood sugar below 130 mg/dL\n2. Exercise at least 30 minutes daily\n3. Lose 5kg in next 6 months",
         "lastUpdated": "2025-05-15T10:30:00Z"
-      },
-      "patientProfile": 
+      }],
+      "patientProfile": [
         {
           "id": "1",
           "patientName": "John Doe",
@@ -433,5 +433,5 @@
           "emergencyContactPhone": "+1 (555) 987-6543",
           "createdAt": "2023-01-01T00:00:00.000Z"
         }
-      
+      ]
     }
