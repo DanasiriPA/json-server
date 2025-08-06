@@ -433,5 +433,211 @@
           "emergencyContactPhone": "+1 (555) 987-6543",
           "createdAt": "2023-01-01T00:00:00.000Z"
         }
-      ]
-    }
+      ],
+    "prescriptions": [
+      {
+        "id": "1",
+        "appointmentId": "app1",
+        "patientId": "1",
+        "patientName": "Rajesh Kumar",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-15",
+        "medicines": [
+          {
+            "name": "Metformin",
+            "dosage": "500mg",
+            "duration": "30 days",
+            "instructions": "Take twice daily with meals"
+          },
+          {
+            "name": "Losartan",
+            "dosage": "50mg",
+            "duration": "30 days",
+            "instructions": "Take once daily in the morning"
+          }
+        ],
+        "notes": "Monitor blood pressure weekly. Follow up in 4 weeks."
+      },
+      {
+        "id": "2",
+        "appointmentId": "app2",
+        "patientId": "2",
+        "patientName": "Priya Sharma",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-18",
+        "medicines": [
+          {
+            "name": "Montelukast",
+            "dosage": "10mg",
+            "duration": "30 days",
+            "instructions": "Take once daily at bedtime"
+          },
+          {
+            "name": "Salbutamol Inhaler",
+            "dosage": "100mcg",
+            "duration": "90 days",
+            "instructions": "Use as needed for asthma symptoms"
+          }
+        ],
+        "notes": "Asthma control improving. Continue current regimen."
+      },
+      {
+        "id": "3",
+        "appointmentId": "app3",
+        "patientId": "3",
+        "patientName": "Amit Patel",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-20",
+        "medicines": [
+          {
+            "name": "Multivitamin",
+            "dosage": "1 tablet",
+            "duration": "90 days",
+            "instructions": "Take once daily with food"
+          }
+        ],
+        "notes": "General wellness check. No issues found."
+      },
+      {
+        "id": "4",
+        "appointmentId": "app4",
+        "patientId": "4",
+        "patientName": "Sunita Reddy",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-22",
+        "medicines": [
+          {
+            "name": "Levothyroxine",
+            "dosage": "50mcg",
+            "duration": "30 days",
+            "instructions": "Take on empty stomach first thing in morning"
+          },
+          {
+            "name": "Calcium + Vitamin D",
+            "dosage": "500mg/400IU",
+            "duration": "30 days",
+            "instructions": "Take twice daily with meals"
+          }
+        ],
+        "notes": "Thyroid levels stable. Continue current treatment."
+      },
+      {
+        "id": "5",
+        "appointmentId": "app5",
+        "patientId": "5",
+        "patientName": "Vikram Singh",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-25",
+        "medicines": [
+          {
+            "name": "Atorvastatin",
+            "dosage": "40mg",
+            "duration": "30 days",
+            "instructions": "Take at bedtime"
+          },
+          {
+            "name": "Clopidogrel",
+            "dosage": "75mg",
+            "duration": "30 days",
+            "instructions": "Take once daily in the morning"
+          }
+        ],
+        "notes": "Cardiac follow-up. LDL improving. Continue medications."
+      },
+      {
+        "id": "6",
+        "appointmentId": "app6",
+        "patientId": "6",
+        "patientName": "Ananya Gupta",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-11-28",
+        "medicines": [
+          {
+            "name": "Ferrous Sulfate",
+            "dosage": "325mg",
+            "duration": "60 days",
+            "instructions": "Take once daily with vitamin C"
+          }
+        ],
+        "notes": "Iron deficiency anemia. Recheck hemoglobin in 2 months."
+      },
+      {
+        "id": "7",
+        "appointmentId": "app7",
+        "patientId": "7",
+        "patientName": "Rahul Mehta",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-12-01",
+        "medicines": [
+          {
+            "name": "Pantoprazole",
+            "dosage": "40mg",
+            "duration": "30 days",
+            "instructions": "Take once daily before breakfast"
+          }
+        ],
+        "notes": "GERD symptoms improved. Continue PPI for 4 more weeks."
+      },
+      {
+        "id": "8",
+        "appointmentId": "app8",
+        "patientId": "8",
+        "patientName": "Neha Joshi",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-12-05",
+        "medicines": [
+          {
+            "name": "Oral Contraceptive",
+            "dosage": "Ethinyl estradiol 30mcg + Drospirenone 3mg",
+            "duration": "90 days",
+            "instructions": "Take once daily at same time"
+          }
+        ],
+        "notes": "PCOS management. Follow up in 3 months."
+      },
+      {
+        "id": "9",
+        "appointmentId": "app9",
+        "patientId": "9",
+        "patientName": "Sanjay Verma",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-12-08",
+        "medicines": [
+          {
+            "name": "Allopurinol",
+            "dosage": "300mg",
+            "duration": "30 days",
+            "instructions": "Take once daily with plenty of water"
+          }
+        ],
+        "notes": "Gout flare resolved. Continue uric acid lowering therapy."
+      },
+      {
+        "id": "10",
+        "appointmentId": "app10",
+        "patientId": "10",
+        "patientName": "Pooja Iyer",
+        "doctorId": "doc123",
+        "doctorName": "Dr. Sarah Johnson",
+        "date": "2023-12-12",
+        "medicines": [
+          {
+            "name": "Sertraline",
+            "dosage": "50mg",
+            "duration": "30 days",
+            "instructions": "Take once daily in the morning"
+          }
+        ],
+        "notes": "Depression symptoms improving. Continue current dose."
+      }
+    ]
+      }
